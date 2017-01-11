@@ -1,0 +1,21 @@
+<!--logs.wxml-->
+
+<!--
+<view class="container">-->
+  <!--<block wx:for="{{logs}}" wx:for-item="log" wx:key="*this">
+    <text class="log-item"> {{log}}</text>
+  </block>-->
+<!--<button bindtap= 'requestNet' type='primary'>大爷，换一波笑话呗</button>-->
+ <!--style="height: 200px;"-->
+  <scroll-view scroll-y="true" style="height:{{scrollHeight}}px;"  bindscrolltoupper="upper" bindscrolltolower="lower" bindscroll="scroll" scroll-into-view="{{toView}}" scroll-top="{{scrollTop}}">
+<view wx:for="{{array}}">
+  {{index}}: {{item.message}}:{{item.content}}
+  <text>\n\n\n\n</text>
+</view>
+ </scroll-view>
+<!--<button bindtap="requestNet"> 大爷，换一批笑话 </button>-->
+<!--<block wx:for="{{nets}}" wx:for-item="net" wx:key="*this">
+    <text class="net-item">{{index + 1}}. {{net}}</text>
+  </block>
+ -->
+<!--</view>-->
