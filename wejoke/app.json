@@ -2,9 +2,7 @@
   "pages":[
      "pages/joke/joke",
      "pages/imageJoke/imageJoke",
-      "pages/video/video",
-    "pages/index/index",
-    "pages/logs/logs"
+      "pages/video/video"
   ],
   "window":{
     "backgroundTextStyle":"light",
